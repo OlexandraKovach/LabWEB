@@ -4,16 +4,27 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
         <title>Курорт для відпочинку</title>
+         
+        
     </head>
     <body>
         <header>
-            <p><a align="right" href="me.html">About me</a></p>
-            <p><a align="right" href="registration.html">Registration</a></p>
-        
+            <div class="header1">
+                <p><a href="me.html">About me</a></p>
+                <p><a  href="registration.html">Registration</a></p>
+            </div>
+            <div class="header2">
+                <label for="login">Логін: &nbsp&nbsp&nbsp</label> <input name="login" type="login" placeholder="aaabbbccc"><br>
+                <label for="password">Пароль: </label> <input name="password" type="login" placeholder="aaabbbccc"><br>
+                <button id="button">Log in</button>
+                </div>
         </header>
         <main>
-            <h1 align="center"><b>Буковель</b></h1>
+            <marquee scrollamount="12" direction="right">
+                <h1>Буковель</h1>
+            </marquee>
             <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/%D0%98%D0%B2%D0%B0%D0%BD%D0%BE-%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C.%D0%93%D0%BE%D1%80%D0%BD%D0%BE-%D0%BB%D1%8B%D0%B6%D0%BD%D1%8B%D0%B9_%D0%BA%D1%83%D1%80%D0%BE%D1%80%D1%82_%D0%91%D1%83%D0%BA%D0%BE%D0%B2%D0%B5%D0%BB%D1%8C.jpg" height="30%" width="30%">
             <div>
                 <h2>Зміст </h2>
@@ -29,7 +40,7 @@
                     <li><a href="#contacts">Мої контакти</a></li>
                 </ul>
             </div>
-            <table border="1px">
+            <table id="table">
                 <caption><b>Гірськолижний курорт «Буковель»</b></caption>
                 <tr>
                     <td>Розташування</td>
@@ -121,6 +132,7 @@
                 </ul>
             </article>
         </main>
+        <hr>
         <footer id="contacts">
             <p><b>Мої контакти:</b></p>
             <p>kovach.oleksandra2@student.uzhnu.edu.ua</p>

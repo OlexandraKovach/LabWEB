@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap%27%27');
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap%27%27');
+
+*{
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 3px;
+}
+body
+{
+    background: rgb(247, 152, 199);
+    padding: 1em;
+}
+header, footer
+{
+    text-shadow: 5px 5px 5px rgb(117, 7, 62);
+    padding: 5px;
+}
+h1
+{
+    text-shadow: 2px 2px 2px rgb(231, 7, 93);
+}
+a{
+    border-bottom: double  rgb(133, 25, 88);
+    padding: 1px;
+    text-decoration: none;
+}
+p{
+    padding-left: 1em;
+}
+.header1
+{
+    margin-left: 0%;
+    display: inline-block;
+}
+.header2
+{
+    float: right;
+}
+input
+{
+    border: 0;
+    padding: 0.5em 1em;
+    border-radius: 99vw;
+    margin: 2px;
+    margin-bottom: 1em;
+}
+label
+{
+    font-size: 1.05em;
+    margin: 0.5em;
+}
+label:hover
+{
+    cursor: pointer;
+}
+button{
+    margin: 1em 6em;
+    min-height: 3em;
+    min-width: 8em;
+    color: rgb(255, 128, 198);
+    background: rgb(116, 12, 90);
+    border: 0;
+    border-radius: 99vw;
+    font-family: 'Rock 3D', cursive;
+    font-weight: 900;
+    transition: all 0.375s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: grey;
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+td:nth-child(even)
+{
+    float: right;
+}
+table caption
+{
+    margin: 0 0 1em 2em;
+}
+#table{
+    border: 0px
+}
+#table{
+    border: 0;
+    margin: 1em auto;
+}
+hr
+{
+    border-color: rgb(94, 10, 56);
+    padding: 0;
+}
+.form
+{
+    width: 65%;
+    min-width: 600px;
+    margin: 0 auto;
+}
+fieldset
+{
+    border-color: rgb(87, 12, 53);
+}
+img{
+    border: inset 3px rgb(124, 11, 73);
+    padding-bottom: 0;
+}
+body
+{
+    border: dotted 2px rgb(85, 6, 65);
+}
+p
+{
+    padding-left: 1em;
+    border: dotted 2px rgb(185, 19, 116);
+}
+footer p
+{
+    border: none;
+}
+header p
+{
+    border: none;
+}
+
+.unicorn
+{
+    border: none;
+}
+
+@media screen and (min-width: 1920px) 
+{  
+    .uni
+    {
+        animation-name: unicorn;
+        position: relative;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes unicorn
+    {
+        0%   {left:0px; top:0px;}
+        10%  {left:190px; top:20px;}
+        20%  {left:380px; top:0px;}
+        30%  {left:570px; top:20px;}
+        40%  {left:760px; top:0px;}
+        50%  {left:950px; top:20px;}
+        60%  {left:1140px; top:0px;}
+        70%  {left:1330px; top:20px;}
+        80%  {left:1520px; top:0px;}
+        90%  {left:1710px; top:20px;}
+        100%  {left:1920px; top:0px;}
+    }
+}
+
+@media screen and (min-width: 720px) 
+{   
+    body, p
+    {
+        border: none;
+    }
+    .flex-wrapper-header
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    .flex-wrapper-1
+    {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
